@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主App界面" />
+
+        <Button
+            android:id="@+id/btn_into_a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转A界面" />
+
+        <Button
+            android:id="@+id/btn_into_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转B界面" />
+
+        <Button
+            android:id="@+id/btn_into_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="跳转C界面" />
+
+    </LinearLayout>
+</layout>
