@@ -1,5 +1,6 @@
 package com.matt.modulea
 
+import androidx.databinding.ViewDataBinding
 import com.alibaba.android.arouter.facade.annotation.Autowired
 import com.alibaba.android.arouter.facade.annotation.Route
 import com.alibaba.android.arouter.launcher.ARouter

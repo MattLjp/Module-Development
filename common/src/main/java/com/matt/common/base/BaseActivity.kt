@@ -14,7 +14,7 @@ import com.matt.common.application.AppManager
  * @ Description :
  */
 abstract class BaseActivity : AppCompatActivity() {
-    protected var mContext: Context? = null
+    protected lateinit var mContext: Context
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
